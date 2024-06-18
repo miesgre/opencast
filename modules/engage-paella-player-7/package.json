@@ -27,6 +27,7 @@
     "html-linter": "^1.1.1",
     "html-validate": "^8.18.2",
     "http-proxy": "^1.18.1",
+    "paella-embedapi": "^0.0.2",
     "source-map-loader": "^5.0.0",
     "style-loader": "^3.3.4",
     "svg-inline-loader": "^0.8.2",
@@ -38,6 +39,7 @@
   "dependencies": {
     "paella-basic-plugins": "^1.44.7",
     "paella-core": "^1.48.2",
+    "paella-iframe-plugin": "^0.0.2",
     "paella-mp4multiquality-plugin": "^1.47.1",
     "paella-skins": "^1.48.0",
     "paella-slide-plugins": "^1.41.4",

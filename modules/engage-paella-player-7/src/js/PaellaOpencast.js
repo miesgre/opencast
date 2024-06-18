@@ -30,6 +30,7 @@ import getZoomPluginContext from 'paella-zoom-plugin';
 import getUserTrackingPluginContext from 'paella-user-tracking';
 import getVideo360CanvasPluginContext from 'paella-webgl-plugins';
 import getMP4MultiQualityContext from 'paella-mp4multiquality-plugin';
+import getPaellaIFramePluginContext from 'paella-iframe-plugin';
 
 import { loadTrimming, setTrimming } from './TrimmingLoader';
 import EpisodeConversor from './EpisodeConversor.js';
@@ -88,7 +89,8 @@ const initParams = {
     getZoomPluginContext(),
     getUserTrackingPluginContext(),
     getVideo360CanvasPluginContext(),
-    getMP4MultiQualityContext()
+    getMP4MultiQualityContext(),
+    getPaellaIFramePluginContext()
   ],
   getCookieConsentFunction: (type) => {
     return myWebsiteCheckConsentFunction(type);

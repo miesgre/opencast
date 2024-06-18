@@ -667,6 +667,9 @@
                 "2": "${metadata.series} - ${metadata.seriestitle}",
                 "3": "${metadata.presenters}"
             }
+        },
+        "es.upv.paella.iFramePlugin": {
+            "enabled": true
         }
     }
 }
